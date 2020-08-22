@@ -1,0 +1,70 @@
+.donation-request {
+    ol {
+        margin-top: 15px;
+    }
+    .donation-request-child-1 {
+        text-align: $textAlign;
+        .donation-request-child-1-1 {
+            border: 1px solid #ccc;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 15px 10px;
+            .child-1-1-1 {
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                background-color: #fbfbfb;
+                font-size: 17px;
+                padding-right: 0;
+                padding-left: 0;
+                @media(max-width: $maxMd) {
+                    font-size: 16px;
+                }
+                .child-1 {
+                    width: 47%;
+                    display: inline-block;
+                    background-color: #f4f4f4;
+                    padding: 8px 3px;
+                    @media(max-width: $maxSm) {
+                        width: 100%;
+                    }
+                }
+                .child-2 {
+                    width: 50%;
+                    display: inline-block;
+                    padding: 8px 3px;
+                    @media(max-width: $maxSm) {
+                        width: 100%;
+                    }
+                }
+                .a {
+                    width: 21.5%;
+                    @media(max-width: $maxSm) {
+                        width: 100%;
+                    }
+                }
+                .b {
+                    width: 75%;
+                    @media(max-width: $maxSm) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .donation-request-child-1-2 {
+            border: 1px solid #ccc;
+            margin: 15px 0;
+            padding: 15px;
+            line-height: 2;
+        }
+        .iframe-div {
+            padding-right: 0;
+            padding-left: 0;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            iframe {
+                width: 100%;
+                height: 400px;
+            }
+        }
+    }
+}

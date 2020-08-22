@@ -1,0 +1,95 @@
+.call-we {
+    text-align: $textAlign;
+    background-color: $colorCcc;
+    ol {
+        @media(max-width: $maxMd) {
+            margin-top: 10px;
+        }
+        @media(max-width: $maxSm) {
+            margin-top: 15px;
+        }
+    }
+    .child-1 {
+        background-color: #fff;
+        padding-right: 0;
+        padding-left: 0;
+        margin: 20px 0 40px;
+        h2 {
+            background-color: #2d3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 23px
+        }
+        .image {
+            width: 55%;
+            margin: 10px auto;
+        }
+        .child-1-1 {
+            border-top: 1px solid #ccc;
+            padding: 10px;
+            h3 {
+                margin: 15px 5px;
+                font-size: 21px;
+                span {
+                    margin: 0 5px;
+                }
+            }
+            h4 {
+                margin: 30px 0;
+                text-align: center;
+                color: #b01f22;
+                font-size: 20px;
+            }
+            .icone {
+                display: flex;
+                justify-content: space-around;
+                a {
+                    &:hover {
+                        text-decoration: none;
+                    }
+                    i {
+                        color: #b01f22;
+                        font-size: 30px;
+                        margin: 5px 0;
+                    }
+                }
+            }
+        }
+    }
+    .child-2 {
+        background-color: #fff;
+        padding-right: 0;
+        padding-left: 0;
+        margin: 20px 0 40px;
+        h2 {
+            background-color: #2d3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 23px
+        }
+        form {
+            padding: 10px 5px;
+            .form-control {
+                margin: 10px 0;
+            }
+            textarea {
+                padding: 7px;
+                border: 1px solid #ccc;
+                outline: none;
+                width: 100%;
+            }
+            .submit {
+                background-color: #2d3e50;
+                color: #fff;
+                text-align: center;
+                padding: 10px;
+                font-size: 23px;
+                width: 100%;
+                margin-top: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+}

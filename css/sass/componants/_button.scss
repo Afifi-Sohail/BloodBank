@@ -1,0 +1,23 @@
+.button1 {
+    background-color: $bgButton1;
+    padding: 10px 50px;
+    color: $whiteColor;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.button2 {
+    font-size: 14px;
+    background-color: $colorCcc;
+    display: inline-block;
+    padding: 15px 55px;
+    margin: 23px 20px;
+    color: $grayColor;
+}

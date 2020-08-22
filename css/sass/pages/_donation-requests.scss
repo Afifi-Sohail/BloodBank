@@ -1,0 +1,45 @@
+.donation-requests {
+    padding-top: 30px;
+    .ul-up {
+        margin: auto;
+        .pagination {
+            margin: auto;
+            margin-top: 20px;
+            li {
+                a {
+                    border-radius: 0 5px 5px 0;
+                    -webkit-border-radius: 0 5px 5px 0;
+                    -moz-border-radius: 0 5px 5px 0;
+                    -ms-border-radius: 0 5px 5px 0;
+                    -o-border-radius: 0 5px 5px 0;
+                    width: 50px;
+                    height: 50px;
+                    text-align: center;
+                    font-size: 23px;
+                    margin: 5px;
+                    color: #000;
+                    @media(max-width: $maxSm) {
+                        width: 35px;
+                        height: 35px;
+                        font-size: 17px;
+                        margin: 3px;
+                        line-height: .95;
+                    }
+                }
+                &:hover a {
+                    background-color: $grayColor;
+                    color: #fff;
+                }
+                &:last-of-type {
+                    a {
+                        border-radius: 5px 0 0 5px;
+                        -webkit-border-radius: 5px 0 0 5px;
+                        -moz-border-radius: 5px 0 0 5px;
+                        -ms-border-radius: 5px 0 0 5px;
+                        -o-border-radius: 5px 0 0 5px;
+                    }
+                }
+            }
+        }
+    }
+}

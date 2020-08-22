@@ -1,0 +1,116 @@
+// Start Top Nav Style
+.up {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    width: 100%;
+    .top-nav {
+        background-color: $bgTopNav;
+        color: $whiteColor;
+        padding: 7px 0;
+        .ar {
+            color: $arColor;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        .en {
+            color: $enColor;
+            text-transform: uppercase;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        .link {
+            color: $whiteColor;
+            margin: 0 4px;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        .Communicate {
+            color: $colorCcc;
+            a {
+                color: $colorCcc;
+                &:hover {
+                    color: $colorCcc;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    // End Top Nav Style
+    // Start Navbar Style
+    .active {
+        border-bottom: 3px solid $activeColor;
+        color: $redColor !important;
+    }
+    .navbar {
+        background-color: $bgMain;
+        padding-bottom: 0 !important;
+        @media(max-width: $maxMd) {
+            text-align: right;
+            padding-bottom: 0 !important;
+            padding-top: 0 !important;
+        }
+        @media(max-width: $maxSm) {
+            padding-bottom: 5px !important;
+            padding-top: 5px !important;
+        }
+        .navbar-toggler {
+            outline: none;
+        }
+        .navbar-nav {
+            margin-right: 0 !important;
+            li {
+                .nav-link {
+                    padding: 10px 10px 20px 0;
+                    &::after {
+                        margin-right: 15px;
+                        content: "|";
+                        color: $colorCcc;
+                    }
+                    &:hover {
+                        border-bottom: 3px solid $activeColor;
+                        color: $redColor !important
+                    }
+                    @media(max-width: $maxMd) {
+                        &::after {
+                            content: " ";
+                        }
+                        padding:5px 0;
+                    }
+                }
+                &:last-of-type {
+                    .nav-link {
+                        &::after {
+                            content: ""
+                        }
+                    }
+                }
+            }
+        }
+        .new-account {
+            font-size: 13px;
+            margin-bottom: 10px;
+            color: #1a1f25;
+            text-decoration: underline;
+        }
+        .login {
+            background-color: $bgButton1;
+            padding: 7px 20px;
+            font-size: 14px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            margin-bottom: 10px;
+            margin-right: 20px;
+            cursor: pointer;
+            @media(max-width: $maxMd) {
+                margin-top: 20px;
+            }
+        }
+    }
+    // End Navbar Style
+}

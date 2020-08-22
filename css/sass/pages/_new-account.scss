@@ -1,0 +1,49 @@
+.create-new-account {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fbfbfb;
+    form {
+        padding: 30px 8%;
+        background-color: $whiteColor;
+        border: 1px solid #ccc;
+        input {
+            padding: 25px 15px;
+            margin: 20px 0;
+            background-color: #fbfbfb;
+        }
+        .date {
+            position: relative;
+            i {
+                position: absolute;
+                top: 0;
+                left: 0;
+                font-size: 30px;
+                margin: 10px 20px;
+                cursor: pointer;
+            }
+        }
+        select {
+            padding: 0px 7px;
+            height: 52px;
+            background-color: #fbfbfb;
+            margin: 20px 0;
+            appearance: none;
+        }
+        .submit {
+            margin: auto;
+            display: block;
+            width: 30%;
+            color: #fff;
+            background-color: green;
+            font-size: 22px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            @media(max-width: $maxSm) {
+                width: 35%;
+                padding: 13px 10px;
+                font-size: 21px;
+            }
+        }
+    }
+}

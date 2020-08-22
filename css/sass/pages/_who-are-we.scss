@@ -1,0 +1,24 @@
+.who-are-we {
+    background-color: $colorCcc;
+    padding-bottom: 20px;
+    ol {
+        margin-top: 15px;
+    }
+    .child-who-are-we {
+        text-align: $textAlign;
+        background-color: $whiteColor;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 20px;
+        @media(max-width: $maxSm) {
+            text-align: center;
+        }
+        .image-in-who-are-we {
+            margin: 20px auto;
+        }
+        p {
+            color: #2d3e50;
+            line-height: 2;
+        }
+    }
+}

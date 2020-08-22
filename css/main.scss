@@ -1,0 +1,17 @@
+// Helpers
+@import "sass/helpers/variables";
+// Layout And Pages
+@import "sass/layout/navbar";
+@import "sass/pages/home";
+@import "sass/pages/new-account";
+@import "sass/pages/donation-requests";
+@import "sass/pages/login";
+@import "sass/pages/disease-prevention";
+@import "sass/pages/call-we";
+@import "sass/pages/who-are-we";
+@import "sass/pages/donation-request";
+// Componants
+@import "sass/componants/button";
+@import "sass/componants/breadcrumb";
+// Layout
+@import "sass/layout/footer";
