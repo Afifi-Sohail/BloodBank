@@ -44,7 +44,7 @@ header {
                     text-align: $textAlign;
                     @media(max-width: $maxMd) {
                         width: 70%;
-                        top: 50%;
+                        top: 45%;
                         left: 50%;
                         transform: translate(-14%, -100%);
                         -webkit-transform: translate(-14%, -100%);
@@ -191,7 +191,7 @@ header {
         margin: auto;
         @media(max-width: $maxMd) {
             font-size: $fontSRh2;
-            width: 130px
+            width: 135px
         }
     }
     .donation-requests-child {
