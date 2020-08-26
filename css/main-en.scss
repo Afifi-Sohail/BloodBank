@@ -1,0 +1,191 @@
+$left:left;
+body {
+    direction: ltr;
+    // Start Style Navbar
+    .up .navbar {
+        @media(max-width: 991px) {
+            text-align: $left;
+        }
+        .login {
+            margin-left: 20px;
+        }
+        .navbar-nav {
+            text-align: $left;
+            li .nav-link::after {
+                margin-left: 15px;
+                margin-right: 0;
+            }
+        }
+    }
+    // End Style Navbar
+    // Start Style Header
+    header .slide .carousel-inner .carousel-item .carousel-caption {
+        text-align: $left;
+        left: 58%;
+        @media(max-width: 991px) {
+            text-align: center;
+            left: 25%;
+            top: 53%;
+        }
+        @media(max-width: 767px) {
+            top: 45%;
+            left: 25%;
+        }
+        a {
+            margin-top: 5px;
+        }
+        h5 {
+            margin: 3px 0;
+        }
+    }
+    // End Style Header
+    // Start Style About Us
+    .about-us p {
+        margin-left: auto;
+    }
+    // End Style About Us
+    // Start Style Articles
+    .articles {
+        .owl-carousel .owl-nav {
+            right: 0%;
+            left: auto;
+        }
+        .cards .card {
+            h4 {
+                text-align: left;
+            }
+            p {
+                text-align: left;
+            }
+        }
+        .title-articles {
+            h3 {
+                text-align: $left;
+            }
+            .up-heart {
+                text-align: right;
+            }
+        }
+        p {
+            text-align: $left;
+        }
+    }
+    // End Style Articles
+    // Start Style Donation Requests
+    .donation-requests {
+        h2 {
+            width: 245px;
+            @media(max-width: 991px) {
+                width: 215px;
+            }
+        }
+        .donation-requests-child {
+            .input-group {
+                input {
+                    border-radius: 15px 0 0 15px !important;
+                    -webkit-border-radius: 15px 0 0 15px !important;
+                    -moz-border-radius: 15px 0 0 15px !important;
+                    -ms-border-radius: 15px 0 0 15px !important;
+                    -o-border-radius: 15px 0 0 15px !important;
+                }
+                button {
+                    border-radius: 0 15px 15px 0 !important;
+                    -webkit-border-radius: 0 15px 15px 0 !important;
+                    -moz-border-radius: 0 15px 15px 0 !important;
+                    -ms-border-radius: 0 15px 15px 0 !important;
+                    -o-border-radius: 0 15px 15px 0 !important;
+                    border-right: 0;
+                    border-left: 1px solid #ccc;
+                }
+            }
+            .box {
+                border-radius: 100px 0 0 100px;
+                -webkit-border-radius: 100px 0 0 100px;
+                -moz-border-radius: 100px 0 0 100px;
+                -ms-border-radius: 100px 0 0 100px;
+                -o-border-radius: 100px 0 0 100px;
+                .the-platoon span {
+                    margin-right: 0;
+                    margin-left: -15px;
+                }
+                .div-button2 {
+                    text-align: center;
+                }
+                .the-information {
+                    text-align: $left;
+                    @media(max-width: 991px) {
+                        padding: 50px 0 0 35px;
+                    }
+                }
+                .no-padding-right {
+                    @media(max-width: 991px) {
+                        padding: 50px 0 0 15px;
+                    }
+                }
+            }
+        }
+    }
+    .donation-request .donation-request-child-1 {
+        .donation-request-child-1-1,
+        .donation-request-child-1-2 {
+            text-align: $left;
+        }
+        .donation-request-child-1-1 .child-1-1-1 .a,
+        .donation-request-child-1-1 .child-1-1-1 .b {
+            width: 100%;
+        }
+    }
+    // End Style Donation Requests
+    // Start Style Call Us
+    .call-us {
+        .child-call-us {
+            margin-left: auto;
+        }
+    }
+    .call-we {
+        text-align: $left;
+    }
+    // End Style Call Us
+    // Start Style App
+    .app div {
+        h3,
+        p {
+            text-align: $left;
+        }
+    }
+    // End Style App
+    // Start Style Contact Us
+    .contact-us {
+        h4,
+        p,
+        ul {
+            text-align: $left
+        }
+    }
+    // End Style Contact Us
+    // Start Style Login
+    .login form {
+        .image-up {
+            line-height: 3;
+            @media(max-width: 767px) {
+                line-height: 0;
+                padding: 0;
+            }
+        }
+        .remember-me {
+            text-align: $left;
+        }
+    }
+    // End Style Login
+    // Start Style Who Are We
+    .who-are-we .child-who-are-we {
+        text-align: $left;
+    }
+    // End Style Who Are We
+    // Start Style Create New Account
+    .create-new-account form .date i {
+        right: 0;
+        left: auto;
+    }
+    // End Style Create New Account
+}

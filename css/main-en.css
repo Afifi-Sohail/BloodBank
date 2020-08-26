@@ -1,0 +1,196 @@
+body {
+    direction: ltr;
+}
+
+@media (max-width: 991px) {
+    body .up .navbar {
+        text-align: left;
+    }
+}
+
+body .up .navbar .login {
+    margin-left: 20px;
+}
+
+body .up .navbar .navbar-nav {
+    text-align: left;
+}
+
+body .up .navbar .navbar-nav li .nav-link::after {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+body header .slide .carousel-inner .carousel-item .carousel-caption {
+    text-align: left;
+    left: 58%;
+}
+
+@media (max-width: 991px) {
+    body header .slide .carousel-inner .carousel-item .carousel-caption {
+        text-align: center;
+        left: 25%;
+        top: 53%;
+    }
+}
+
+@media (max-width: 767px) {
+    body header .slide .carousel-inner .carousel-item .carousel-caption {
+        top: 45%;
+        left: 25%;
+    }
+}
+
+body header .slide .carousel-inner .carousel-item .carousel-caption a {
+    margin-top: 5px;
+}
+
+body header .slide .carousel-inner .carousel-item .carousel-caption h5 {
+    margin: 3px 0;
+}
+
+body .about-us p {
+    margin-left: auto;
+}
+
+body .articles .owl-carousel .owl-nav {
+    right: 0%;
+    left: auto;
+}
+
+body .articles .cards .card h4 {
+    text-align: left;
+}
+
+body .articles .cards .card p {
+    text-align: left;
+}
+
+body .articles .title-articles h3 {
+    text-align: left;
+}
+
+body .articles .title-articles .up-heart {
+    text-align: right;
+}
+
+body .articles p {
+    text-align: left;
+}
+
+body .donation-requests h2 {
+    width: 245px;
+}
+
+@media (max-width: 991px) {
+    body .donation-requests h2 {
+        width: 215px;
+    }
+}
+
+body .donation-requests .donation-requests-child .input-group input {
+    border-radius: 15px 0 0 15px !important;
+    -webkit-border-radius: 15px 0 0 15px !important;
+    -moz-border-radius: 15px 0 0 15px !important;
+    -ms-border-radius: 15px 0 0 15px !important;
+    -o-border-radius: 15px 0 0 15px !important;
+}
+
+body .donation-requests .donation-requests-child .input-group button {
+    border-radius: 0 15px 15px 0 !important;
+    -webkit-border-radius: 0 15px 15px 0 !important;
+    -moz-border-radius: 0 15px 15px 0 !important;
+    -ms-border-radius: 0 15px 15px 0 !important;
+    -o-border-radius: 0 15px 15px 0 !important;
+    border-right: 0;
+    border-left: 1px solid #ccc;
+}
+
+body .donation-requests .donation-requests-child .box {
+    border-radius: 100px 0 0 100px;
+    -webkit-border-radius: 100px 0 0 100px;
+    -moz-border-radius: 100px 0 0 100px;
+    -ms-border-radius: 100px 0 0 100px;
+    -o-border-radius: 100px 0 0 100px;
+}
+
+body .donation-requests .donation-requests-child .box .the-platoon span {
+    margin-right: 0;
+    margin-left: -15px;
+}
+
+body .donation-requests .donation-requests-child .box .div-button2 {
+    text-align: center;
+}
+
+body .donation-requests .donation-requests-child .box .the-information {
+    text-align: left;
+}
+
+@media (max-width: 991px) {
+    body .donation-requests .donation-requests-child .box .the-information {
+        padding: 50px 0 0 35px;
+    }
+}
+
+@media (max-width: 991px) {
+    body .donation-requests .donation-requests-child .box .no-padding-right {
+        padding: 50px 0 0 15px;
+    }
+}
+
+body .donation-request .donation-request-child-1 .donation-request-child-1-1,
+body .donation-request .donation-request-child-1 .donation-request-child-1-2 {
+    text-align: left;
+}
+
+body .donation-request .donation-request-child-1 .donation-request-child-1-1 .child-1-1-1 .a,
+body .donation-request .donation-request-child-1 .donation-request-child-1-1 .child-1-1-1 .b {
+    width: 100%;
+}
+
+body .call-us .child-call-us {
+    margin-left: auto;
+}
+
+body .call-we {
+    text-align: left;
+}
+
+body .app div h3,
+body .app div p {
+    text-align: left;
+}
+
+body .contact-us h4,
+body .contact-us p,
+body .contact-us ul {
+    text-align: left;
+}
+
+body .login form .image-up {
+    line-height: 3;
+}
+
+@media (max-width: 767px) {
+    body .login form .image-up {
+        line-height: 0;
+        padding: 0;
+    }
+}
+
+body .login form .remember-me {
+    text-align: left;
+}
+
+body .who-are-we .child-who-are-we {
+    text-align: left;
+}
+
+body .create-new-account form .date i {
+    right: 0;
+    left: auto;
+}
+
+
+/*# sourceMappingURL=main-en.css.map */

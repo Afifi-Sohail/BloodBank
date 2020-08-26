@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donation Request</title>
+    <title>Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body id="home">
+<body>
     <!-- Start Up -->
     <div class="up">
         <!-- Start Top Navbar -->
@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-6">
-                        <a href="#" class="ar">عربي</a><a href="#" class="en"> | en</a>
+                        <a href="index-ar.html" class="ar">عربي</a><a href="index.html" class="en"> | en</a>
                     </div>
                     <div class="col-md-3 col-6">
                         <a class="link" href="https://www.facebook.com/profile.php?id=100010256328979">
@@ -65,93 +65,78 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">الرئيسية</a>
+                            <a class="nav-link" href="index-ar.html">الرئيسية</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="who-are-we.html">عن بنك الدم</a>
+                            <a class="nav-link" href="who-are-we-ar.html">عن بنك الدم</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="articles.html">المقالات</a>
+                            <a class="nav-link" href="articles-ar.html">المقالات</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="donation-requests.html">طلبات التبرع</a>
+                            <a class="nav-link" href="donation-requests-ar.html">طلبات التبرع</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="call-we.html">إتصل بنا</a>
+                            <a class="nav-link" href="call-we-ar.html">إتصل بنا</a>
                         </li>
                     </ul>
-                    <a href="new-account.html" class="new-account">إنشاء حساب جديد</a>
-                    <a href="login.html" class="btn btn-primary login ">الدخول</a>
+                    <a href="new-account-ar.html" class="new-account">إنشاء حساب جديد</a>
+                    <a href="login-ar.html" class="btn btn-primary login ">الدخول</a>
                 </div>
             </div>
         </nav>
         <!-- End Navbar -->
     </div>
     <!-- End Up -->
-    <!-- Start Section Donation Request -->
-    <section class="donation-request padding-nav-top">
+    <!-- Start Login -->
+    <div class="login padding-nav-top">
         <div class="container">
             <div class="row">
                 <div class="col-12" aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
-                        <li class="breadcrumb-item active" aria-current="page"> طلب التبرع : احمد محمد</li>
+                        <li class="breadcrumb-item active" aria-current="page"> تسجيل الدخول</li>
                     </ol>
                 </div>
             </div>
+            <form>
+                <div class="row">
+                    <div class="col-6 col-lg-4 logo-image">
+                        <img src="images/logo.png">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <input class="form-control" type="text" placeholder="رقم الهاتف">
+                        <input class="form-control" type="password" placeholder="كلمة السر">
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-5 col-lg-3 remember-me">
+                        <input type="checkbox">
+                        <label>تذكرني</label>
+                    </div>
+                    <div class="col-7 col-lg-3 image-up">
+                        <div class="image">
+                            <img src="images/complain.png">
+                        </div>
+                        <a href="#">هل نسيت كلمة المرور</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-7 col-lg-6 margin-sm">
+                        <input class="login-submit" type="submit" value="دخول">
+                    </div>
+                    <div class="col-7 col-lg-6 margin-sm">
+                        <a class="new-ac-in-login" href="new-account-ar.html">إنشاء حساب جديد</a>
+                    </div>
+                </div>
+            </form>
         </div>
-        <div class="donation-request-child-1">
-            <div class="container">
-                <div class="row donation-request-child-1-1 justify-content-around">
-                    <div class="col-5 child-1-1-1">
-                        <div class="child-1">الاسم </div>
-                        <div class="child-2">احمد محمد</div>
-                    </div>
-                    <div class="col-5 child-1-1-1">
-                        <div class="child-1">فصيلة الدم </div>
-                        <div class="child-2">+a</div>
-                    </div>
-                    <div class="col-5 child-1-1-1">
-                        <div class="child-1">العمر </div>
-                        <div class="child-2">28 عام</div>
-                    </div>
-                    <div class="col-5 child-1-1-1">
-                        <div class="child-1">الأكياس المطلوبة</div>
-                        <div class="child-2">3 أكياس</div>
-                    </div>
-                    <div class="col-5 child-1-1-1">
-                        <div class="child-1">المستشفى </div>
-                        <div class="child-2">الخير الدولية</div>
-                    </div>
-                    <div class="col-5 child-1-1-1">
-                        <div class="child-1">رقم الهاتف </div>
-                        <div class="child-2">023452345</div>
-                    </div>
-                    <div class="col-11 child-1-1-1">
-                        <div class="child-1 a">عنوان المستشفى </div>
-                        <div class="child-2 b">المنصورة - شارع عبد العزيز بجوار المرور المتفرع من الدولي</div>
-                    </div>
-                </div>
-                <div class="col-12 donation-request-child-1-2">
-                    <p>
-                        هذا النص هو مثال لنص يمكن ان يستبدل في نفس المساحة , لقد تم توليد هذا النص من مولد النص العربي , حيث يمكن ان تولد مثل هذا النص او العديد من النصوص الأخرى . إضافة الى زيادة عدد الحروف التي يولدها التطبيق هذا النص هو مثال لنص يمكن ان يستبدل في نفس المساحة
-                        , لقد تم توليد هذا النص من مولد النص العربي , حيث يمكن ان تولد مثل هذا النص او العديد من النصوص الأخرى . إضافة الى زيادة عدد الحروف التي يولدها التطبيق هذا النص هو مثال لنص يمكن ان يستبدل في نفس المساحة , لقد تم توليد هذا النص
-                        من مولد النص العربي , حيث يمكن ان تولد مثل هذا النص او العديد من النصوص الأخرى . إضافة الى زيادة عدد الحروف التي يولدها التطبيق هذا النص هو مثال لنص يمكن ان يستبدل في نفس المساحة
-                        <br/> هذا النص هو مثال لنص يمكن ان يستبدل في نفس المساحة , لقد تم توليد هذا النص من مولد النص العربي , حيث يمكن ان تولد مثل هذا النص او العديد من النصوص الأخرى . إضافة الى زيادة عدد الحروف التي يولدها التطبيق هذا النص هو مثال لنص
-                        يمكن ان يستبدل في نفس المساحة , لقد تم توليد هذا النص من مولد النص العربي
-                    </p>
-                </div>
-                <div class="col-12 iframe-div">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.0769147036212!2d31.409187285381183!3d31.0519582772293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79db9d4d56311%3A0x69ad97566dc9bd76!2z2YXYs9iq2LTZgdmJINin2YTYrtmK2LE!5e0!3m2!1sar!2seg!4v1598098756614!5m2!1sar!2seg"
-                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Section Donation Request -->
-
+    </div>
+    <!-- End Login -->
     <!-- Start Contact US -->
-    <section class="contact-us " id="contact-us">
+    <section class="contact-us ">
         <div class="container ">
             <div class="row justify-content-between ">
                 <div class="col-lg-4 col-12 ">
@@ -166,19 +151,19 @@
                 <div class="col-lg-2 col-6 ">
                     <ul>
                         <li>
-                            <a href="index.html">الرئيسية</a>
+                            <a href="index-ar.html">الرئيسية</a>
                         </li>
                         <li>
-                            <a href="who-are-we.html">عن بنك الدم</a>
+                            <a href="who-are-we-ar.html">عن بنك الدم</a>
                         </li>
                         <li>
-                            <a href="articles.html">المقالات</a>
+                            <a href="articles-ar.html">المقالات</a>
                         </li>
                         <li>
-                            <a href="donation-requests.html">طلبات التبرع</a>
+                            <a href="donation-requests-ar.html">طلبات التبرع</a>
                         </li>
                         <li>
-                            <a href="call-we.html">إتصل بنا</a>
+                            <a href="call-we-ar.html">إتصل بنا</a>
                         </li>
                     </ul>
                 </div>
